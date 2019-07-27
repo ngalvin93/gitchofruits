@@ -1,0 +1,122 @@
+
+/*.red {
+    background-color: red;
+}
+.blue {
+    background-color: #1ef1e7;
+}
+.beige {
+    background-color: hotpink;
+}
+.black {
+    background-color: teal;
+}*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /*.header {
+    text-align: center;
+    padding: 32px;
+  }
+  */
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+   
+    vertical-align: middle;
+    width: 100%;
+    
+  }
+
+  .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 8;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: red;
+  }
+  .overlay:hover {
+      opacity: 1;
+  }
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cell {
+    position: relative;
+    margin-top: 8px;
+    border: solid 3px black;
+}
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+@media (min-width: 576px) {
+    .row, .column {
+        height: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .row, .column {
+        height: 60px;
+    }
+}
+@media (min-width: 992px) {
+    .row, .column {
+        height: 80px;
+    }
+}
+@media (min-width: 1200px) {
+    .row, .column {
+        height: 95px;
+    }
+}
