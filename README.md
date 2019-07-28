@@ -17,7 +17,7 @@ Before pushing your code to Github, make sure to pull down master and merge it i
 Have your teammates look over your Pull Request before merging it into master, and instruct your teammates to pull down master after your Pull Request.
 
 **Team Members**
-- Alvin Ng
-- Aubrey Snider
-- Paige Ballard
-- William Harris
+- [Alvin Ng] (https://github.com/ngalvin93)
+- [Aubrey Snider](https://github.com/aurmer)
+- [Paige Ballard] (https://github.com/paigeballard)
+- [William Harris] (https://github.com/wjeffharris)
