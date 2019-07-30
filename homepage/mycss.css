@@ -14,7 +14,7 @@
         flex: 1;
         border: 2px solid black;
     }
-    #main > nav{
+    /* #main > nav{
         flex: 0 0 20vw;
         background: white;
         border-right: 2px solid black;
@@ -23,10 +23,10 @@
         flex: 0 0 20vw;
         background:white;
         border-left: 2px solid black;
-    }
-    #main > nav{
+    } */
+    /* #main > nav{
         order: -1;
-    }
+    } */
     .fruit{
         height: 100px;
         
