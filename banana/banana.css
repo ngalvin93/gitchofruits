@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+
+.game-box{
+  position: relative;
+  height: calc(100vh - 56px);
+  width: 100vw;
+  overflow: hidden;
+}
+
+.banana {
+  background-image: url('banana.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.spinning-banana {
+  animation: spin 1s linear infinite;
+}
+
+.banana-container {
+  position: absolute;
+  animation: fall 2s linear;
+}
+
+.start {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*
+@keyframes fall {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(100vh);
+  }
+}
+*/
