@@ -9,3 +9,20 @@ html {
 #card {
     margin: 2rem;
 }
+
+#headline {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#headline-two {
+    margin-top: 200px;
+}
+
+form {
+    margin-bottom: 200px;
+}
+
+.form-row {
+    padding-top: 20px;
+}
