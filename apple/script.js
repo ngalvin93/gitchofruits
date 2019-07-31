@@ -1,3 +1,3 @@
-function git () {
-    alert('You are this apple!');
+function git (name) {
+    alert('You are a ' + name + ' apple!');
 }

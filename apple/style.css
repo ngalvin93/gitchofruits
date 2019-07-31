@@ -1,11 +1,7 @@
-/* .container {
-    background-color: palegoldenrod;
-} */
-
 html {
     scroll-behavior: smooth;
 }
-  
+
 #card {
     margin: 2rem;
 }
